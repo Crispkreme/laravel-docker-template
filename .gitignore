@@ -1,15 +1,5 @@
-# Laravel
-/vendor/
-/node_modules/
-/.env
-/public/storage
-/storage/*.key
-/storage/app/public
-/storage/debugbar
-/storage/logs
-*.log
-
-# Docker
+# Ignore MySQL socket
+mysql/mysql.sock
 mysql/
 db_data/
 *.pid
