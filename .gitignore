@@ -1,0 +1,19 @@
+# Laravel
+/vendor/
+/node_modules/
+/.env
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/debugbar
+/storage/logs
+*.log
+
+# Docker
+mysql/
+db_data/
+*.pid
+
+# OS
+.DS_Store
+Thumbs.db
